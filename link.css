@@ -1,0 +1,132 @@
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 100px;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.head img {
+    height: 80px;
+}
+
+.register {
+    display: flex;
+}
+
+.register .zc {
+    color: orange;
+}
+
+.gree {
+    background-color: #71d5ff;
+    display: flex;
+}
+
+.ccc {}
+
+.title {
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.gree ul {
+    flex: 1;
+    background-color: #dddddd;
+    margin: 30px 0;
+    padding-bottom: 100px;
+    margin-left: 100px;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    text-align: center;
+    width: 200px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gree ul li {
+    flex: 1;
+    width: 100%;
+    line-height: 50px;
+}
+
+.active {
+    background-color: red;
+}
+
+.link {
+    padding: 0 20px;
+    margin: 30px 0;
+    flex: 7;
+    background-color: #ffffff;
+    margin-right: 100px;
+}
+
+.youqing {
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+    border-bottom: 1px solid #cccccc;
+}
+
+li {
+    list-style: none;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.icon li {
+    flex: 20%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #cccccc;
+    margin: 10px;
+}
+
+
+.icon li img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+    font-size: 13px;
+    /* color: #ddd; */
+}
+
+footer div {
+    margin-top: 10px;
+}
+
+.a ul {
+    display: block;
+}
+
+.a ul li {
+    display: inline;
+    margin-left: 10px;
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
